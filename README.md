@@ -7,4 +7,9 @@ Learn about Spring Boot & Agile Process
 
 ## 기록
 
-[첫째 주 기록](/first)
+[First Week](/first)
+[Second Week](/second)
+[Third Week](/third)
+[Fourth Week](/fourth)
+[Fifth Week](/fifth)
+[Last Week](/sixth)
