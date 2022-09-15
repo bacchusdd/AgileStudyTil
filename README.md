@@ -1,6 +1,6 @@
 # AgileStudyTil
 ### TIL for 신입사원 agile & backend education program
-Learn about Spring Boot & Agile Process
+Learning about Spring Boot & Agile Process
 </br>
 
 ## TIL 
