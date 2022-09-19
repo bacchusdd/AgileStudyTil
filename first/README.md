@@ -49,7 +49,17 @@
 * 신차? 중고차?
 </br>
 
-0919
+## 0919
+(숙제)
+# 라이브러리 vs 프레임워크
+	- 라이브러리
+	- 프레임워크
+# spring vs spring boot
+	- spring
+	- spring boot : 개발자가 spring 사용을 위해 설정을 편하게 할 수 있게 해주는 것
+# 그룹별로 직접 도메인 선정
+# json이 뭘까요?
+# HTTP Request Method(방법) 여러가지 캐치해보기
 </br>
 
 0920
