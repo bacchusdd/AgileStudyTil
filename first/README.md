@@ -51,15 +51,23 @@
 
 ## 0919
 (숙제)
-# 라이브러리 vs 프레임워크
+* 라이브러리 vs 프레임워크
 	- 라이브러리
 	- 프레임워크
-# spring vs spring boot
+* spring vs spring boot
 	- spring
 	- spring boot : 개발자가 spring 사용을 위해 설정을 편하게 할 수 있게 해주는 것
-# 그룹별로 직접 도메인 선정
-# json이 뭘까요?
-# HTTP Request Method(방법) 여러가지 캐치해보기
+* json이 뭘까요?
+* HTTP Request Method
+	- GET	: 지정된 리소스(URI) 요청/ retrieve data
+	- HEAD	: response identical to GET request, without response body (헤더 정보만 요청)
+	- POST	: submits enityt to specified resource. 서버가 클라이언트의 폼 입력 필드 데이터의 수락을 요청. 클라이언트는 서버로 http body에 data 전송
+	- PUT	: 클라이언트가 전송한 데이터를 지정한 URI로 대체. 클라이언트는 서버로 http body에 data 전송
+	- DELETE: 지정된 리소스 삭제
+	- CONNECT
+	- OPTIONS
+	- TRACE
+	- PATCH
 </br>
 
 0920
