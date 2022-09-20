@@ -10,7 +10,7 @@ Learning about Spring Boot & Agile Process
 ## 팀 노션 링크
 [노션](https://www.notion.so/prgrms/1-021639e7880a4c20b52437a98bd0c66a)
 
-기획안도 해당 링크에 있음
+기획안, 프로젝트 진행 상황, 스크럼 기록 등
 </br>
 
 
