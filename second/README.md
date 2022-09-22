@@ -49,6 +49,7 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 
 * 문제
 Q. classA가 필요한 객체를 직접 만들지 않고 classB 객체를 갖고 싶으면 어떻게?
+
 A. classA가 classB에 의존하지 안흔ㄴ 3가지 방법
 	(1) 객체를 필요로 하는 method의 매개변수로 받기
 	(2) classA의 생성자 매개변수로 받아서 classA의 필드로 넣어주기 (매개변수 받은 걸 this.~)
