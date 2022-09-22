@@ -44,44 +44,36 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	2) 빌드, 배치할 때 코드를 자동으로 생성하도록 알려줌
 	3) 실행(컴파일) 특정 기능을 실행하도록 알려줌
 
-
 * di
   -
-
 
 * 문제
 Q. classA가 필요한 객체를 직접 만들지 않고 classB 객체를 갖고 싶으면 어떻게?
 A. classA가 classB에 의존하지 안흔ㄴ 3가지 방법
 	(1) 객체를 필요로 하는 method의 매개변수로 받기
-	(2) classA의 생성자 매개변수로 받아서 classA의 필드로 넣어주기 (매개변수 받은 걸 this.~~)
-	(3) Spring - @Autowired를 필드 위에 추가해주기
-
+	(2) classA의 생성자 매개변수로 받아서 classA의 필드로 넣어주기 (매개변수 받은 걸 this.~)
+	(3) Spring @Autowired를 필드 위에 추가해주기
 
 * IoC
 - inversion of control (제어권의 역전)
 - 제어권을 직접 갖지 않고, 그 외부에서 객체(의존성) 제어권을 가지는 것
 
-
-=> spring DI + IoC
+* *spring DI + IoC*
   : Sprig Dependency Instance
   : 스프링이 모든 의존성 객체를 생성도 해주고, 필요한 클래스/메소드에 주입
   = 제어의 흐름을 스프링에게 맡긴다
 
-
-=> Spring IoC Container
+* *Spring IoC Container*
   : bean = ioc container의 객체
   : 개발자가 클래스에 '----' 해주면 스프링이 그걸 보고 bean으로 생성/보관
   : 개발자가 그 객체가 필요한 클래스에 '-----' 해주면, 스프링이 그걸 보고 의존성 주입
 
-
 - 현업에서 일할 땐 aws 사이트에 있는 정도(만) 알면 됨 (매우 많음 ㅎㅎ;)
-
 
 * REST API
   - uri는 정보의 자원을 표현해야 한다
   - 자원에 대한 행위는 HTTP mthod로 표현한다
   - http 장점을 극대화하여 데이터를 전송하는 방법을 구현하는 것
-
 
 * functional programming = fp
   - 프로그래밍이 지향하는 바가, "함수(메소드)"
