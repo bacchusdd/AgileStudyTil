@@ -55,8 +55,8 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	(3) Spring @Autowired를 필드 위에 추가해주기
 
 * IoC
-- inversion of control (제어권의 역전)
-- 제어권을 직접 갖지 않고, 그 외부에서 객체(의존성) 제어권을 가지는 것
+  - inversion of control (제어권의 역전)
+  - 제어권을 직접 갖지 않고, 그 외부에서 객체(의존성) 제어권을 가지는 것
 
 * *spring DI + IoC*
   : Sprig Dependency Instance
