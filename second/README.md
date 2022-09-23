@@ -91,6 +91,21 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 
 ## 0923
 (scrum)
+- 노션에 작성
+
+(학습)
+* git 계정 여러개 관리
+https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9
+https://yosuniiiii.com/github-%EA%B3%84%EC%A0%95-%EC%97%AC%EB%9F%AC%EA%B0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-on-mac-6588237f9671
+
+* pull request
+https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue
+
+* git action
+학습 예정
+
+* git branch 전략
+- [git flow 세가지 전략](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
 
 </br>
 
