@@ -86,6 +86,16 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 
 ## 0922
 (scrum & 멘토링)
+- 우선 순위 다시 정하기
+- 회원가입은 스크립트보단 기능으로 추가하여 3순위
+- ci 정도 고려해보면 좋겠다
+- 옵션에 따라 가격 달라지게끔??
+- 역할 정하기 (매주 돌아가면서)
+- 매주 팀 계획과 요구사항 : 스프린트
+- 스프린트
+- 프로젝트 세팅
+- 이슈 템플릿? pr 템플릿???
+- 멘토님 깃헙 리뷰어 지정???? @marco
 
 </br>
 
@@ -102,7 +112,7 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	- https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue
 
 * git action
-학습 예정
+	- 학습 예정
 
 * git branch 전략
 	- [git flow 세가지 전략](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
@@ -110,7 +120,9 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 </br>
 
 ## 0926
-* 미션 진행
+(학습)
+* CI
+	- [git action](https://insight-bgh.tistory.com/m/473)
 
 (scrum)
 
