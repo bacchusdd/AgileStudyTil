@@ -137,5 +137,15 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 
 * WebFlux
 	- [노션 학습 미션](https://www.notion.so/prgrms/5c622ce04dc54082a35b2428cd436626?v=0f5c73169d394488a16d22ab5b42d5d7&p=756db898758f41a1b37fdf034a0cd963&pm=s)
+	
+* functional programming
+	- programming paradigm where programs are constructed by applying and composing functions
+	- Avoids changing State and Mutable data (상태, data 변경을 지양) -> 대입문 사용 x, 지역 변수 제거...
+	- 모든 것을 순수 함수로 나누어 문제를 해결하는 기법으로, 작은 문제를 해결하기 위한 함수를 작성하여 가독성을 높이고 유지보수를 용이하게
+	- 순수 함수 + 1급 시민(객체) + 참조 투명성
+		- 순수 함수 = 부수효과 x, 외부에 영향 x, 독립성
+		- 1급 시민(객체) = '함수'를 '매개변수', '반화값'으로 사용 가능, 변수/데이터 구조 안에 담을 수 있음, 고유성
+		- 참조 투명성 = 동일 인자는 항상 동일 결과값, 기존값 항상 유지(변경 x)
+	- https://mangkyu.tistory.com/111
 
 </br>
