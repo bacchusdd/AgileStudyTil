@@ -156,4 +156,5 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	
 * REST API
 * Annotation
+* *개발자가 클래스에 '~' 해주면 spring이 bean으로 생성해주고 보관해줌*
 </br>
