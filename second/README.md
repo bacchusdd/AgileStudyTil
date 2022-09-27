@@ -185,5 +185,5 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 * Quiz
 	- *개발자가 클래스에 '---' 해주면 spring이 bean으로 생성해주고 보관해줌*
   	- *개발자가 그 객체가 필요한 클래스에 '---' 해주면, spring이 그것을 보고 의존성 주입*
-  	- -> 정답 : ???
+  	- -> 정답 : (1)@Componenet 관련(bean 등록 관련) annotation 달기 (2)@Autowired (의존성 주입) annotaion 달기
 </br>
