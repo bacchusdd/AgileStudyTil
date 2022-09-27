@@ -150,11 +150,40 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	- https://mangkyu.tistory.com/111
 
 * 객체지향 vs 절차지향
-	- 객채 지향 : 
-	- 절차 지향 : 
+	- 객채 지향
+		: 실제 세계 모델링
+		: 기능과 속성을 한 곳에서 관리하는 방식
+		: 프로그램을 명령어의 목록이 아닌, 여러개의 독립된 단위인 객체들의 모임으로 파악하고자 하는 프로그래밍 기법
+		: (1) 캡슐화 : 관련 데이터와 코드를 하나의 묶음으로 정리, 데이터를 감추고 외부와의 상호작용은 메소드를 통해서
+		: (2) 상속 : 이미 작성된 클래스를 이어 받아 새로운 클래스 생성. 기존 코드 재활용
+		: (3) 다형성 : 동일 작업 함수에 똑같은 이름 부여 가능
+	- 절차 지향
+		: 순차적 처리
+		: 코드의 순서가 바뀌면 동일한 결과를 보장하기 어려움
+		: 컴퓨터의 처리구조와 유사해 실행속도가 빠름
 	- https://brownbears.tistory.com/407
 	
 * REST API
+	- AWS : https://aws.amazon.com/ko/what-is/restful-api
+	- NHN : https://meetup.toast.com/posts/92
+
 * Annotation
-* *개발자가 클래스에 '~' 해주면 spring이 bean으로 생성해주고 보관해줌*
+	- @Component
+		- container가 생성될 때 component scan을 통해 자동으로 spring ioc conatiner 빈 등록, 해당 클래스의 객체를 빈으로 관리
+		- ex) @Controller, @Service, @Repository
+		- 개발자가 직접 작성한 class를 bean으로 등록하기 위해 사용 ( cf) @Bean : 개발자가 직접 제어 불가능한 외부 라이브러리 등을 bean으로 만들 때 이용 )
+	- @Autowired
+		- 필요한 의존 객체 '타입'에 해당하는 bean을 찾아 의존성 주입
+		- 해당 변수 및 메서드에 spring이 관리하는 bean을 자동으로 맵핑해줌
+		- 생성자, setter 메서드, field(변수, 일반 메서드)에 사용 가능
+		- 기본값이 true이기 때문에, 의존성 주입 대상을 찾지 못한다면 어플리케이션 구동에 실패함
+		- cf) '이름'으로 의존성을 주입하는 어노테이션은 @Resource (변수, setter 메서드에 사용, bean이 map 타입인 경우에 사용)
+		- https://devlog-wjdrbs96.tistory.com/166
+		- https://life-with-coding.tistory.com/433
+	
+	- IoC container에 bean으로 등록이 된 후에 의존성 주입(DI)가 가능함
+	
+* *개발자가 클래스에 '---' 해주면 spring이 bean으로 생성해주고 보관해줌*
+  *개발자가 그 객체가 필요한 클래스에 '---' 해주면, spring이 그것을 보고 의존성 주입*
+  -> 정답 : ???
 </br>
