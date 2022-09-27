@@ -125,23 +125,15 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	- [git action](https://insight-bgh.tistory.com/m/473)
 * 라이브세션 미션
 * **SPRING FRAMEWORK 구동 순서**
-	(1) WAS(Tomcat...) : 웹 어플리케이션이 실행되면 WAS에 의해 web.xml 로딩
-	
-	(2) ContextLoaderListener : web.xml에 등록되어있는 ContextLoaderListener 생성. ServletContextListener 인터페이스를 구현하고 있으며, ApplicationContext(IoC 엔진, bean 생명주기 담당)를 생성해주는 것
-	
-	(3) root-context.xml(ApplicationContext) : ContextLoaderListener는 서블릿 초기화 용도로 사용되며,  contextConfigLocation 파라미터를 사용하여 load 가능한 설정파일 지정할 수 있음
-	
-	(4) root-context.xml에 등록된 설정에 따라 SpringContainer(root)가 service, dao, vo를 구동
-	
-	(5) client로부터 web application에 request
-	
-	(6) DispatcherServlet 생성
-	
-	(7) servlet-context.xml(presentation-layer.xml) : DispatcherServlet이 servlet-context 로딩
-	
-	(8) 두 번째 Spring Container가 구동되며, 응답에 맞는 PageController 동작
-	
-	(9) response
+	- (1) WAS(Tomcat...) : 웹 어플리케이션이 실행되면 WAS에 의해 web.xml 로딩
+	- (2) ContextLoaderListener : web.xml에 등록되어있는 ContextLoaderListener 생성. ServletContextListener 인터페이스를 구현하고 있으며, ApplicationContext(IoC 엔진, bean 생명주기 담당)를 생성해주는 것
+	- (3) root-context.xml(ApplicationContext) : ContextLoaderListener는 서블릿 초기화 용도로 사용되며,  contextConfigLocation 파라미터를 사용하여 load 가능한 설정파일 지정할 수 있음
+	- (4) root-context.xml에 등록된 설정에 따라 SpringContainer(root)가 service, dao, vo를 구동
+	- (5) client로부터 web application에 request
+	- (6) DispatcherServlet 생성
+	- (7) servlet-context.xml(presentation-layer.xml) : DispatcherServlet이 servlet-context 로딩
+	- (8) 두 번째 Spring Container가 구동되며, 응답에 맞는 PageController 동작
+	- (9) response
 	
 	- servlet conatiner : http 요청을 받아 웹페이지를 동적으로 생성하는 역할 ex) tomcat
 	- web.xml의 역할 : 
