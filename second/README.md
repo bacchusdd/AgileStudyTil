@@ -125,11 +125,10 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	- [git action](https://insight-bgh.tistory.com/m/473)
 * 라이브세션 미션
 
-(scrum)
-
+</br>
 
 ## 0927
-(녹화 강의)
+* 라이브세션 
 
 
 </br>
