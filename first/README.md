@@ -112,10 +112,10 @@
 	- GET	: 지정된 리소스(URI) 요청/ retrieve data
 	- HEAD	: response identical to GET request, without response body (헤더 정보만 요청)
 	- POST	: submits enityt to specified resource. 서버가 클라이언트의 폼 입력 필드 데이터의 수락을 요청. 클라이언트는 서버로 http body에 data 전송
-	- PUT	: 클라이언트가 전송한 데이터를 지정한 URI로 대체. 클라이언트는 서버로 http body에 data 전송
+	- PUT	: 클라이언트가 전송한 데이터를 지정한 URI로 대체. 클라이언트는 서버로 http body에 data 전송 (전반적인 수정)
 	- DELETE: 지정된 리소스 삭제
 	- CONNECT
 	- OPTIONS
 	- TRACE
-	- PATCH
+	- PATCH : 일부 
 </br>
