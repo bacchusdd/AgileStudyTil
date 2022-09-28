@@ -139,6 +139,7 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 	- web.xml의 역할 : 
 	- https://www.saichoiblog.com/spring-boot-principle-of-operation/
 * **SPRING-BOOT FRAMEWORK 구동 순서**
+	- https://mangkyu.tistory.com/213
 
 </br>
 
