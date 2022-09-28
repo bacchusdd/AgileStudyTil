@@ -2,7 +2,12 @@
 
 ## 0928
 * 라이브세션
-* Spring Security 공부
+* Spring Security
+  - 보안(authentication + authorization + protection) Spring Framework
+  - 인증 -> 인가(접근 권한 확인)
+  - 공식 docs : https://docs.spring.io/spring-security/reference/index.html
+  - https://mangkyu.tistory.com/76
+  - https://dev-coco.tistory.com/174
 
 </br>
 
