@@ -23,6 +23,19 @@
 ## 0929
 (학습)
 * Spring Security
+* Swagger UI
+  - 기본 -> 도메인 별로 구분하여 보기 힘듦
+    - commonApi
+  - 전체 -> 도메인 별로 구분하여 볼 수 있음
+    - base를 package에 두기
+    - [예시](https://github.com/bacchusdd/MileageSystem/blob/master/src/main/java/com/example/triple/config/SwaggerConfig.java)
+  - 사용법
+    - @ApiIgnore : 제외하고 싶은 controller 위에 붙여주기
+    - extends WebMvcConfigurationSupport -> registry.addResourceHandler
+      - ???
+      
+  - https://nahwasa.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-Swagger-UI-300-%EC%A0%81%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-22-%EC%9D%B4%EC%83%81-Spring-Boot-Swagger-UI
+  - https://velog.io/@wotj7687/Spring-Boot-Swagger-3.0.0-%EC%A0%81%EC%9A%A9
 
 (scrum with 멘토님)
 *
