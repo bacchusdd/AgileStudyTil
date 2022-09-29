@@ -85,6 +85,6 @@
       - 주소가 아닌 '값'을 비교하기 때문!
   - DTO vs VO
     - DTO는 받아온 VO를 Back-end내에서 (비즈니스 로직 등..) 매핑/처리가 필요할 경우에 변환하여 사용하는 객체
-    - ![dtovo](/dtovo.png)
+    - ![dtovo](third/dtovo.png)
     - https://parkadd.tistory.com/53
-  - https://yeonyeon.tistory.com/163
+    - https://yeonyeon.tistory.com/163
