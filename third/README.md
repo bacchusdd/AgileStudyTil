@@ -66,3 +66,25 @@
     - method : ??
   - AOP(관점 지향 프로그래밍)
   - https://dev-coco.tistory.com/173
+* Entity vs DTO vs VO
+  - **Entity**
+    - 실제 DB table과 맵핑 (1:1)
+    - Core class, request/response 객체로 절대 사용하지 말아야 함
+    - 외부에서 getter method 이용하지 않도록
+  - **DTO**
+    - Data Transfer Object
+    - 계층 간 데이터 "전달"을 위한 객체
+    - *로직을 갖지 않음*
+    - 데이터를 담고 꺼내기만 함 (getter/setter)
+  - **VO**
+    - Value Object
+    - "값을 표현"하는 객체
+    - *로직을 가질 수 있음*
+    - 객체의 불변성 보장
+    - 값 비교를 위해 equals()와 hashCode() 메소드를 오버라이딩 해줘야 함
+      - 주소가 아닌 '값'을 비교하기 때문!
+  - DTO vs VO
+    - DTO는 받아온 VO를 Back-end내에서 (비즈니스 로직 등..) 매핑/처리가 필요할 경우에 변환하여 사용하는 객체
+    - ![dtovo](/dtovo.png)
+    - https://parkadd.tistory.com/53
+  - https://yeonyeon.tistory.com/163
