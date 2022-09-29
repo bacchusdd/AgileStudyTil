@@ -23,6 +23,8 @@
 ## 0929
 (학습)
 * Spring Security
+  - 'filter' 흐름
+  - Client (request) → Filter → DispatcherServlet → Interceptor →  Controller(실제로 Interceptor가 Controller로 요청을 위임하는 것은 아님, Interceptor를 거쳐서 가는 것)
 * Swagger UI
   - 기본 -> 도메인 별로 구분하여 보기 힘듦
     - commonApi
@@ -52,3 +54,15 @@
 * stream method 중 findAny(), findFirst()
 * spring security
 * jwt
+* Spring 공통 업무 중복 코드 제거 위한 방법
+  - filter
+    - 요청/응답을 걸러줌 : dispatcher servlet에 요청 전달되기 전후에 url-pattern에 맞는 모든 요청에 대해 부가 작업을 처리할 수 있도록
+    - 요청/응답이 spring container가 아닌, spring 외부 **web container** (tomcat...)에 의해 관리됨
+    - javax.servlet의 Filter interface 구현하여 사용
+    - init() : 필터 객체 초기화, 서비스에 추가 // doFilter() : http 요청이 servlet으로 전달되기 전 web-container에 의해 실행 // destroy90 : 필터 객체 제거, 자원 반환
+  - interceptor
+    - 요청에 대한 작업 전후로 요청을 가로채는 역할 : dispatcher servlet이 controller 호출 전후에 요청과 응답을 찹조하거나 가공할 수 있도록
+    - **spring context**에서 동작
+    - method : ??
+  - AOP(관점 지향 프로그래밍)
+  - https://dev-coco.tistory.com/173
