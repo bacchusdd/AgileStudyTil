@@ -153,7 +153,39 @@ cf) micorsoft - marketplace (소프트웨어 라이센스 관리 프로그램)
 
 * WebFlux
 	- [노션 학습 미션](https://www.notion.so/prgrms/5c622ce04dc54082a35b2428cd436626?v=0f5c73169d394488a16d22ab5b42d5d7&p=756db898758f41a1b37fdf034a0cd963&pm=s)
-	
+	- **[WebFlux]**
+
+- reactive-stack web module
+- spring framework 5에서 사용
+- rxJava, coroutines(kotlin)과 함께 이용
+- 서비스간 호출이 많은 MSA 아키텍쳐에 용이
+- 목적
+    - 적은 양의 스레드로 동시성 핸들링
+    - 함수형 프로그래밍 사용 위해
+
+**[WebFlux vs MVC]**
+
+**MVC** 
+• 동기적 블로킹
+• (동기) 호출과 응답이 동시에 이뤄지며, (블로킹) 함수가 종료될 때까지 다음 코드가 실행되지 않는, wait 시키는 방식
+• 요청마다 스레드 생성, 효율성 위해 스레드 풀 이용.
+• 동시에 여러 요청이 들어온다면 리소스 많이 사용 혹은 스레드 풀에 부담
+• Thread Pool : 미리 설정해둔 개수만큼 스레드를 생성해두는 방식, 준비된 상태
+    ◦ 기능 저하 방지, 다수 요청 처리 위해 사용
+    ◦ pool 사이즈를 잘 조절하여 모든 스레드가 바쁘게 일할 수 있도록 해야함 → load balance
+
+**WebFlux**
+• 비동기적 논블로킹
+• (비동기) 호출과 처리응답의 시점이 다르며, (논블로킹) 함수가 처리를 응답할 때까지 기다리지 않고 다음 코드 실행하는 방식
+• 이벤트 루프 돌면서 요청이 발생할 경우, 핸들러에게 요청 처리를 위임하며, 완료되면 callback 응답
+    ◦ 동시에 여러 요청 부담 없이 처리 가능
+    ◦ 모든 코드가 논블로킹이어야 의미 있음
+    ◦ 반응현 라이브러리 필요 ex. RXJava
+
+![웹플럭스.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8a0ecec-280e-4e7a-a582-f7450ce0b50c/%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A5%E1%86%A8%E1%84%89%E1%85%B3.png)
+
+netty : async-non blocking server
+
 * functional programming
 	- programming paradigm where programs are constructed by applying and composing functions
 	- Avoids changing State and Mutable data (상태, data 변경을 지양) -> 대입문 사용 x, 지역 변수 제거...
