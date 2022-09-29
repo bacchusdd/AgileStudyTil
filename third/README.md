@@ -35,3 +35,7 @@
 
 
 # 라이브세션 미션
+* optional + stream
+* stream method 중 findAny(), findFirst()
+* spring security
+* jwt
