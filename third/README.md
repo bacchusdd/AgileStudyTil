@@ -47,7 +47,7 @@
 
 ## 0930
 (학습)
-* **쿠키 vs 세션 vs 토큰 (vs 캐시)**
+* 팀미션, 개인미션
 
 (scrum with 멘토님)
 * ㅁㄴㅇㄹ
@@ -59,9 +59,32 @@
 
 # 라이브세션 미션
 * optional + stream
+  - *stream*
+    - A sequence of elements supporting sequential and parallel aggregate operations.
+    - data 읽기만, 변경 x
+    - 일회용
+    - 계산식 람다 표현이 중요 (jvm에게 람다식 넘겨주어 계산)
+    - collection보다 가볍게 (메모리 사용 낮추며) 사용 가능
+    - filter(조건 걸러주기), map(조건 해당 값 반환), flatMapto~(중첩구조 개선), sorted, collcet(결과 요약), collectors(결과 분할)
+    - https://www.baeldung.com/java-8-collectors
+  - *optional*
+    - A container object which may or may not contain a non-null value.
+    - NPE 방지 위해 사용
+    - Optional<T> : null이 올 수 있는 값을 감싸는 Wrapper 클래스
+      - 참조하더라도 NPE가 발생하지 않도록 도와줌
+      - Optional 클래스는 value에 값을 저장하기 때문에 값이 null이더라도 바로 NPE가 발생하지 않으며, 클래스이기 때문에 각종 메소드를 제공
+    - https://mangkyu.tistory.com/70
+  - https://velog.io/@gjrjr4545/JAVA-8-3-Stream-Optional%EC%9D%98-%EB%93%B1%EC%9E%A5
 * stream method 중 findAny(), findFirst()
+  - stream에서 일치하는 요소 1개 찾을 때 사용
+  - stream 직렬 처리 시 둘 차이 x
+  - stream 병렬 처리 시 반환값 달라짐 ( stream().parallel(),filter() )
+    - findAndy() : stream에서 가장 먼저 찾은 요소 반환. stream 상 순서가 앞이라는 보장 x
+    - findFirst() : filter 조건에 맞는 요소들 중 stream에서의 순서가 가장 앞인 요소 반환
+  - https://codechacha.com/ko/java8-stream-difference-findany-findfirst/
 * spring security
 * jwt
+* **쿠키 vs 세션 vs 토큰 (vs 캐시)**
 * Spring 공통 업무 중복 코드 제거 위한 방법
   - filter
     - 요청/응답을 걸러줌 : dispatcher servlet에 요청 전달되기 전후에 url-pattern에 맞는 모든 요청에 대해 부가 작업을 처리할 수 있도록
