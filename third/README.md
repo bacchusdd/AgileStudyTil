@@ -89,6 +89,18 @@
   - https://codechacha.com/ko/java8-stream-difference-findany-findfirst/
 * jwt
 * **쿠키 vs 세션 vs 토큰 (vs 캐시)**
+  - Cookie
+  - Session
+  - Token
+    -	토큰 기반 인증에서는 쿠키&세션 사용 x
+    -	토큰 : 서버로의 모든 request에 대해 유저를 인증하기 위해 사용
+    -	Token format : jwt(bearer), oauth,
+    -	Authentication(인증:신원 확인) vs Authorization(승인:권ㅇ한 부여)
+    -	Stateless = connection등의 상태 정보를 저장하지 않음
+    -	독립적 : http request를 생성할 수 있는 클라이언트라면 누구든지 서버로 요청 보낼 수 있으며, 
+    -	No CSRF(no cookie-session) : autherntication header 내에 token이 포함되기 때문에 CSRF 방지
+    -	서버는 토큰만 방지, 저장은 클라이언트만!
+
 * Spring 공통 업무 중복 코드 제거 위한 방법
   - filter
     - 요청/응답을 걸러줌 : dispatcher servlet에 요청 전달되기 전후에 url-pattern에 맞는 모든 요청에 대해 부가 작업을 처리할 수 있도록
