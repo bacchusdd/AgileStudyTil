@@ -39,12 +39,20 @@
   - https://nahwasa.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-Swagger-UI-300-%EC%A0%81%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-22-%EC%9D%B4%EC%83%81-Spring-Boot-Swagger-UI
   - https://velog.io/@wotj7687/Spring-Boot-Swagger-3.0.0-%EC%A0%81%EC%9A%A9
 
-(scrum with 멘토님)
-*
+(scrum & project)
+* Swagger UI 설정
+* git 올리는 방식 : issue 통해 branch 생성 -> 코드 commit/push -> pull reqeust 통해 리뷰 받고 branch에 합치기
 
 </br>
 
 ## 0930
+(학습)
+* **쿠키 vs 세션 vs 토큰 (vs 캐시)**
+
+(scrum with 멘토님)
+* ㅁㄴㅇㄹ
+
+(학습)
 ## 1003
 ## 1004
 
