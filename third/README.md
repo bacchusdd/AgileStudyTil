@@ -48,7 +48,12 @@
 ## 0930
 (학습)
 * 팀미션, 개인미션
-
+* Java :: (더블 클론)
+  - 메소드 레퍼런스, 람다식과 유사
+  - 인스턴스 활용하여 메소드 전달
+  - class/참조변수 이름 :: method 이름
+* Java 람다식
+  - https://khj93.tistory.com/entry/JAVA-%EB%9E%8C%EB%8B%A4%EC%8B%9DRambda%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%82%AC%EC%9A%A9%EB%B2%95
 (scrum with 멘토님)
 * ㅁㄴㅇㄹ
 
@@ -82,7 +87,6 @@
     - findAndy() : stream에서 가장 먼저 찾은 요소 반환. stream 상 순서가 앞이라는 보장 x
     - findFirst() : filter 조건에 맞는 요소들 중 stream에서의 순서가 가장 앞인 요소 반환
   - https://codechacha.com/ko/java8-stream-difference-findany-findfirst/
-* spring security
 * jwt
 * **쿠키 vs 세션 vs 토큰 (vs 캐시)**
 * Spring 공통 업무 중복 코드 제거 위한 방법
