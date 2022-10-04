@@ -55,11 +55,18 @@
 * Java 람다식
   - https://khj93.tistory.com/entry/JAVA-%EB%9E%8C%EB%8B%A4%EC%8B%9DRambda%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%82%AC%EC%9A%A9%EB%B2%95
 (scrum with 멘토님)
-* ㅁㄴㅇㄹ
+* 특이 사항 없음
 
-(학습)
+</br>
+
 ## 1003
+* 
+</br>
+
 ## 1004
+* 미션 학습
+* 다대다 관계 맵핑
+* repository 의존성 주입 안 되는 거 해결 못함...
 
 
 # 라이브세션 미션
@@ -90,12 +97,17 @@
 * jwt
 * **쿠키 vs 세션 vs 토큰 (vs 캐시)**
   - Cookie
-    - 사용자 정보를 '쿠키'에 저장
-    
+    - 사용자 정보를 사용자 브라우저의 '쿠키'에 저장
+    - 쿠키이름, 쿠키값, 만료시간, 전송할 도메인명, 전송할 경로, 보안연결여부, HttpOnly여부 등으로 구성
   - Session
+    - 브라우저가 종료되기 전까지 클라이언트의 요청을 유지하게 해주는 기술
+    - 사용자의 인증 정보가 서버의 세션에 저장됨
+    - stateless한 HTTP protocol 이용시 정보를 저장하기 위해
+    - 브라우저는 모든 요청에 사용자가 누구인지 알리는데 사용
   - Token
     -	토큰 기반 인증에서는 쿠키&세션 사용 x
     -	토큰 : 서버로의 모든 request에 대해 유저를 인증하기 위해 사용
+    - 인증 정보를 클라이언트가 직접 들고 있는 방식
     -	Token format : jwt(bearer), oauth,
     -	Authentication(인증:신원 확인) vs Authorization(승인:권ㅇ한 부여)
     -	Stateless = connection등의 상태 정보를 저장하지 않음
