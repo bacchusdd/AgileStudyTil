@@ -114,6 +114,9 @@
     -	독립적 : http request를 생성할 수 있는 클라이언트라면 누구든지 서버로 요청 보낼 수 있으며, 
     -	No CSRF(no cookie-session) : autherntication header 내에 token이 포함되기 때문에 CSRF 방지
     -	서버는 토큰만 방지, 저장은 클라이언트만!
+  - https://velog.io/@yohanblessyou/%EC%84%B8%EC%85%98-vs-%ED%86%A0%ED%81%B0-vs-%EC%BF%A0%ED%82%A4
+  - https://chrisjune-13837.medium.com/web-%EC%BF%A0%ED%82%A4-%EC%84%B8%EC%85%98%EC%9D%B4%EB%9E%80-aa6bcb327582
+  - https://hudi.blog/session-based-auth-vs-token-based-auth/
 
 * Spring 공통 업무 중복 코드 제거 위한 방법
   - filter
