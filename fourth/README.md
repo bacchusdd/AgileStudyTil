@@ -2,6 +2,8 @@
 
 ## 1005
 (라이브 세션)
+- Spring Security
+
 (프로젝트 및 학습)
 - 복합키 설정
   - @IdClass
