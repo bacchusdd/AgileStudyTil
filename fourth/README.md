@@ -19,6 +19,7 @@
   
  ## 1006
  (프로젝트 및 학습)
-  - 생성자 대신 정적 팩토리 메서드?
+  - DTO 생성자 대신 정적 팩토리 메서드?
+    - https://velog.io/@harukawa99/정적-팩토리-메소드
   - unit 단위 test / TDD
   - snake_case, camelCase db-springboot 호환 방
