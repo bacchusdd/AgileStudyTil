@@ -23,3 +23,7 @@
     - https://velog.io/@harukawa99/정적-팩토리-메소드
   - unit 단위 test / TDD
   - snake_case, camelCase db-springboot 호환 방
+  - response config
+    - [https://velog.io/@leeeeeyeon/Spring-boot-Response-형식-만들기](https://velog.io/@leeeeeyeon/Spring-boot-Response-%ED%98%95%EC%8B%9D-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+    - [https://devlog-wjdrbs96.tistory.com/182](https://devlog-wjdrbs96.tistory.com/182)
+    - [https://devlog-wjdrbs96.tistory.com/197?category=882974](https://devlog-wjdrbs96.tistory.com/197?category=882974)
