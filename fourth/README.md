@@ -27,3 +27,10 @@
     - [https://velog.io/@leeeeeyeon/Spring-boot-Response-형식-만들기](https://velog.io/@leeeeeyeon/Spring-boot-Response-%ED%98%95%EC%8B%9D-%EB%A7%8C%EB%93%A4%EA%B8%B0)
     - [https://devlog-wjdrbs96.tistory.com/182](https://devlog-wjdrbs96.tistory.com/182)
     - [https://devlog-wjdrbs96.tistory.com/197?category=882974](https://devlog-wjdrbs96.tistory.com/197?category=882974)
+    
+  </br>
+  
+  ## 1011
+  - Spring의 ResponseEntity 사용하기
+    - [https://hyeonic.tistory.com/197](https://hyeonic.tistory.com/197)
+    - [https://thalals.tistory.com/268](https://thalals.tistory.com/268)
