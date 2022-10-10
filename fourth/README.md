@@ -127,8 +127,6 @@
 
 확장은 열려 있고 변경에는 닫혀 있어야함. → 기존의 코드를 변경하지 않고 기능을 수정하거나 추가할 수 있도록 설계해야함.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c35bfe2-4c7c-40ac-8b54-781dbf8e2cd0/Untitled.png)
-
 위의 그림처럼 운전자가 자동차를 접근할 때 공통으로 상속받는 상위 클래스 또는 인터페이스를 중간에 둠으로써 다양한 자동차가 생겨도 운전자는 각 차량별 특성에 영향을 받지 않게 됨. 다양한 자동차가 생기는 것은 자동차입장에서 자신의 확장에 개방되어 있고, 운전자의 입장에서 주변의 변화에 폐쇄되어 있음.
 
 ### L : LSP ( Listov Substitution Principle ) - 리스코프 치환 법칙
@@ -136,8 +134,6 @@
 하위 클래스 is a kind of 상위 클래스 - 하위 분류는 상위 분류의 한 종류다.
 
 구현 클래스 is able to 인터페이스 - 구현 분류는 인터페이스할 수 있어야 한다.
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94d98175-9199-4b22-989c-dc91002d3e45/Untitled.png)
 
 ### I : ISP ( Interface Segregation Principle ) - 인터페이스 분리법칙
 
@@ -153,11 +149,10 @@
 
 ⇒ 구체화된 클래스보다 추상 클래스나 인터페이스에 의존하는 것이 바람직함.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ebef750-fa3a-4146-89e1-6977cda413c0/Untitled.png)
-
 자동차의 타이어에 대한 의존 관계를 맺을 떄 스노우타이어, 일반 타이어, 광폭 타이어 보다 타이어 인터페이스를 의존 관계로 함으로써 타이어가 변경되어도 자동차는 영향을 받지 않음.
 
 [https://devlog-wjdrbs96.tistory.com/380](https://devlog-wjdrbs96.tistory.com/380)
+
 [https://velog.io/@haero_kim/SOLID-원칙-어렵지-않다](https://velog.io/@haero_kim/SOLID-%EC%9B%90%EC%B9%99-%EC%96%B4%EB%A0%B5%EC%A7%80-%EC%95%8A%EB%8B%A4)
 
 출처 : [두성님](https://www.notion.so/prgrms/Week4-SOLID-930aead155c8476481b7c6a578a7249a)
