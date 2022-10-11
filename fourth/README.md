@@ -156,3 +156,14 @@
 [https://velog.io/@haero_kim/SOLID-원칙-어렵지-않다](https://velog.io/@haero_kim/SOLID-%EC%9B%90%EC%B9%99-%EC%96%B4%EB%A0%B5%EC%A7%80-%EC%95%8A%EB%8B%A4)
 
 출처 : [두성님](https://www.notion.so/prgrms/Week4-SOLID-930aead155c8476481b7c6a578a7249a)
+
+</br>
+
+## 1011
+- jpa null 예외 처리 : Optional 사용
+  - [jpa](https://duooo-story.tistory.com/48)
+  - [Optional](https://duooo-story.tistory.com/38?category=881766)
+  - [Optional-to-Entity](https://stackoverflow.com/questions/50185164/spring-boot-how-to-pass-optional-to-an-entity-class)
+  
+ </br>
+ 
