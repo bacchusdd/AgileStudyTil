@@ -20,4 +20,7 @@
 ## 1018
 - jpa repository list 반환시 에러 처리?
   - [optional<~<list>> 사용이 좋지 못한 이유](https://velog.io/@hnsoo/JPA-%EC%9E%98%EB%AA%BB%EB%90%9C-%ED%91%9C%ED%98%84-OptionalListobject)
-  - 결론 : Optional은 null 처리 위해 사용, but jpa에서 값 없으면 빈 list를 반환하지 null을 반환하지 않음. list로 받은 후 따로 처리 
+  - 결론 : Optional은 null 처리 위해 사용, but jpa에서 값 없으면 빈 list를 반환하지 null을 반환하지 않음. list로 받은 후 따로 처리
+- [HTTP 상태코드 숫자별 상세 정보](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C)
+    - 404 : 페이지가 없는 경우
+    - 일반적으로 내가 생각하는 not found는 400 사용하면 되려나?
