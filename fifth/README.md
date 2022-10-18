@@ -17,3 +17,7 @@
  
  </br>
  
+## 1018
+- jpa repository list 반환시 에러 처리?
+  - [optional<~<list>> 사용이 좋지 못한 이유](https://velog.io/@hnsoo/JPA-%EC%9E%98%EB%AA%BB%EB%90%9C-%ED%91%9C%ED%98%84-OptionalListobject)
+  - 결론 : Optional은 null 처리 위해 사용, but jpa에서 값 없으면 빈 list를 반환하지 null을 반환하지 않음. list로 받은 후 따로 처리 
