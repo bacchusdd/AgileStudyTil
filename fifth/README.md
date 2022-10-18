@@ -24,3 +24,5 @@
 - [HTTP 상태코드 숫자별 상세 정보](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C)
     - 404 : 페이지가 없는 경우
     - 일반적으로 내가 생각하는 not found는 400 사용하면 되려나?
+- @JsonInclude 이용하여 원하는 값만 출력하기
+    - [@JsonInclude](https://alwayspr.tistory.com/m/31)
