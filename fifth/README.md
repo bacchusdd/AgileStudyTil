@@ -26,3 +26,9 @@
     - 일반적으로 내가 생각하는 not found는 400 사용하면 되려나?
 - @JsonInclude 이용하여 원하는 값만 출력하기
     - [@JsonInclude](https://alwayspr.tistory.com/m/31)
+    
+  </br>
+  
+  ## 1019
+  - Moctest with security
+    - [임시 user, token 이용하기](https://tecoble.techcourse.co.kr/post/2020-09-30-spring-security-test/)
