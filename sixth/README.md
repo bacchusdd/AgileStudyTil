@@ -10,3 +10,13 @@
 - [throw vs throws](https://codechacha.com/ko/java-throw-and-throws/)
   - throw :  Exception을 발생시킬 때
   - throws : 메소드에서 잠재적으로 어떤 Exception이 발생할 수 있는지 명시
+  
+  </br>
+  
+## 1021
+- openapi-swagger 설정
+  - [초기 기본 설정](https://wildeveloperetrain.tistory.com/156)
+  - [@RequestBody에 schema 적용](https://stackoverflow.com/questions/64645528/java-spring-boot-openapi-3-how-to-add-description-for-requestbody)
+  - [공식 문서](https://springdoc.org/properties.html)
+  - [공식 문서 보기 좋게](https://oingdaddy.tistory.com/272)
+  - [자세한 설명](https://blog.jiniworld.me/91)
