@@ -20,3 +20,8 @@
   - [공식 문서](https://springdoc.org/properties.html)
   - [공식 문서 보기 좋게](https://oingdaddy.tistory.com/272)
   - [자세한 설명](https://blog.jiniworld.me/91)
+</br>
+
+## 1024
+- [@ReqeustParam vs @PathVairable](https://velog.io/@dmchoi224/Rest-API-RequestParam-%EA%B3%BC-PathVariable)
+  - REST를 따르기 위해서는 {~} @PathVariable 사용할 것
