@@ -25,3 +25,6 @@
 ## 1024
 - [@ReqeustParam vs @PathVairable](https://velog.io/@dmchoi224/Rest-API-RequestParam-%EA%B3%BC-PathVariable)
   - REST를 따르기 위해서는 {~} @PathVariable 사용할 것
+  - [언제 무엇을 사용하는가](https://medium.com/@fullsour/when-should-you-use-path-variable-and-query-parameter-a346790e8a6d)
+  - Path Variable은 REST API에서 값을 호출할 때 주로 사용되고, Query Parameter는 게시판의 페이지 및 검색 정보를 전달하는 방식에서 많이 사용된다.
+  - [Paging에 ReqeustParam 넘겨주기](https://velog.io/@conatuseus/JPA-Paging-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%82%98%EB%88%84%EA%B8%B0-o7jze1wqhj)
