@@ -28,3 +28,12 @@
   - [언제 무엇을 사용하는가](https://medium.com/@fullsour/when-should-you-use-path-variable-and-query-parameter-a346790e8a6d)
   - Path Variable은 REST API에서 값을 호출할 때 주로 사용되고, Query Parameter는 게시판의 페이지 및 검색 정보를 전달하는 방식에서 많이 사용된다.
   - [Paging에 ReqeustParam 넘겨주기](https://velog.io/@conatuseus/JPA-Paging-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%82%98%EB%88%84%EA%B8%B0-o7jze1wqhj)
+</br>
+
+
+## 1026
+- Spring Security 권한 설정
+  - user table에 권한 column 추가하지 않고, role table 따로 둬서 관리하는 방법
+  - UserDetails + GrantedAuthority
+  - [UserDetails interface 이해하기](https://zgundam.tistory.com/49)
+  - [한 user 여러 권한 관리](https://gaemi606.tistory.com/entry/Spring-Boot-Spring-Security-%ED%95%9C-%EC%9C%A0%EC%A0%80%EC%97%90%EA%B2%8C-%EC%97%AC%EB%9F%AC-AuthorityROLE-%EB%B6%80%EC%97%AC%ED%95%98%EA%B8%B0-UserDetails)
